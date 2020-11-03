@@ -1,7 +1,7 @@
 var dropdown = d3.select("#selDataset");
 var meta = d3.select("#sample-metadata");
 
-d3.json("samples.json").then(processData);
+d3.json("Code/samples.json").then(processData);
 
 function processData(data) {
 
